@@ -1,0 +1,25 @@
+# Core Web Framework
+fastapi==0.108.0
+uvicorn[standard]==0.25.0
+
+# Authentication & Security
+python-jose[cryptography]==3.3.0
+passlib[bcrypt]==1.7.4
+python-multipart==0.0.6
+email-validator==2.1.0
+
+# Database
+sqlalchemy==2.0.25
+
+# Configuration
+pydantic==2.5.3
+pydantic-settings==2.1.0
+python-dotenv==1.0.0
+
+# HTTP & File Operations
+httpx==0.26.0
+aiofiles==23.2.1
+
+# Basic Data Processing
+pandas==2.2.0
+numpy==1.26.3
